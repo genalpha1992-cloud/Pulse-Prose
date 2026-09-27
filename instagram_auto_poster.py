@@ -61,6 +61,8 @@ def create_media_container(image_url: str, caption: str) -> str:
         "access_token": ACCESS_TOKEN,
     }
     resp = requests.post(url, data=payload)
+    if not resp.ok:
+        print(f"Meta API error response: {resp.text}")
     resp.raise_for_status()
     container_id = resp.json()["id"]
     print(f"Created container: {container_id}")
@@ -127,7 +129,7 @@ def post_to_instagram(image_url: str, caption: str) -> str:
 
 if __name__ == "__main__":
     # Example call — replace with a real, publicly reachable image URL
-    example_image_url = "https://example.com/path/to/your-image.jpg"
+    example_image_url = "https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/HealthTip_cropped.jpg"
     example_caption = (
         "5 evidence-based tips for better sleep tonight 🌙\n"
         "Source: sleep research summarized in your own words.\n"
