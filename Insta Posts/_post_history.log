@@ -1,0 +1,23 @@
+2026-09-27 22:17:01,337  INFO  Posting: 0001-Brain.png
+2026-09-27 22:17:04,984  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.png
+2026-09-27 22:17:04,984  INFO  DRY RUN - stopping before publishing. Nothing was posted to Instagram.
+2026-09-27 22:17:04,990  INFO  Check that this image loads in a browser: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.png
+2026-09-28 08:12:22,875  INFO  Posting: 0001-Brain.png
+2026-09-28 08:12:26,422  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.png
+2026-09-28 08:12:27,233  ERROR  Failed to post 0001-Brain.png: 400 Client Error: Bad Request for url: https://graph.facebook.com/v21.0/17841436222860538/media
+2026-09-29 14:50:30,903  INFO  Posting: 0001-Brain.png
+2026-09-29 14:50:34,302  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.jpg
+2026-09-29 14:50:34,302  INFO  DRY RUN - stopping before publishing. Nothing was posted to Instagram.
+2026-09-29 14:50:34,311  INFO  Check that this image loads in a browser: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.jpg
+2026-09-29 14:58:56,675  INFO  Posting: 0001-Brain.png
+2026-09-29 14:59:00,080  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.jpg
+2026-09-29 14:59:01,284  ERROR  API error 400: {"error":{"message":"Cannot call API for app 1747830609833607 on behalf of user 122094552099499208","type":"OAuthException","code":200,"fbtrace_id":"ADCyiqVI92DQh1XhY21ikKs"}}
+2026-09-29 14:59:01,284  ERROR  Failed to post 0001-Brain.png: 400 Client Error: Bad Request for url: https://graph.facebook.com/v21.0/17841436222860538/media
+2026-09-30 12:51:23,245  INFO  Posting: 0001-Brain.png
+2026-09-30 12:51:27,232  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0001-Brain.jpg
+2026-09-30 12:51:32,227  INFO  Created media container: 18100634960207429
+2026-09-30 12:51:38,181  INFO  Published successfully. Instagram media ID: 18127193227692530
+2026-10-01 10:59:37,983  INFO  Posting: 0002-Mind.png
+2026-10-01 10:59:40,638  INFO  Uploaded to GitHub: https://raw.githubusercontent.com/genalpha1992-cloud/Pulse-Prose/main/instagram_uploads/0002-Mind.jpg
+2026-10-01 10:59:46,885  INFO  Created media container: 18100845194207429
+2026-10-01 10:59:51,642  INFO  Published successfully. Instagram media ID: 17972106915157881
